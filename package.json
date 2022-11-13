@@ -21,12 +21,12 @@
 		"web-vitals": "^2.1.0"
 	},
 	"scripts": {
-		"dev": "react-scripts start",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"server": "json-server --watch db.json --port 5000",
-		"start": "concurrently \"yarn run server\" \"yarn run start\""
+		"dev": "concurrently \"yarn run server\" \"yarn run start\""
 	},
 	"eslintConfig": {
 		"extends": [
